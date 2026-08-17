@@ -1,0 +1,31 @@
+# Virtual Environment
+apsvenv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+
+# VS Code
+.vscode/
+
+# Model files (optional)
+# *.pkl
+#Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+#Test Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
