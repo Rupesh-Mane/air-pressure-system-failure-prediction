@@ -1,6 +1,11 @@
 # Virtual Environment
 apsvenv/
 
+#Raw dataset
+data/raw/*.csv
+
+#Processed dataset
+data/processed/*.csv
 # Python cache
 __pycache__/
 *.py[cod]
