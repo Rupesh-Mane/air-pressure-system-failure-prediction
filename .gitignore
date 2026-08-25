@@ -6,6 +6,10 @@ data/raw/*.csv
 
 #Processed dataset
 data/processed/*.csv
+
+# Artifacts
+artifacts/
+
 # Python cache
 __pycache__/
 *.py[cod]
