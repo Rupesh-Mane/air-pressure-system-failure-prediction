@@ -248,3 +248,207 @@ The ROC curve shows how well the final XGBoost model separates the **two classes
 </div>
 
 ---
+
+## ⚙️ Hyperparameter Tuning
+
+After training and evaluating the models, I used hyperparameter tuning to find better parameter combinations and improve model performance.
+
+### 🔧 Techniques Used
+
+<table>
+<tr>
+<td align="center" style="border: 2px solid #222; padding: 15px;">
+
+### 🔎 GridSearchCV
+
+Systematically searches through a predefined set of parameter combinations to find a suitable configuration for a model.
+
+</td>
+
+<td align="center" style="border: 2px solid #222; padding: 15px;">
+
+### 🧠 Optuna
+
+Automatically searches for promising hyperparameter combinations using different trials.
+
+</td>
+</tr>
+</table>
+
+I used **GridSearchCV and Optuna** for the machine learning models and compared the tuned results to select a suitable final model.
+
+---
+
+## 🏆 Final Model
+
+After comparing the models and performing hyperparameter tuning, **XGBoost** was selected as the final model for this project.
+
+### 📊 Final XGBoost Performance
+
+<table>
+<tr>
+<th>📌 Metric</th>
+<th>📈 Score</th>
+</tr>
+
+<tr>
+<td>🎯 Accuracy</td>
+<td><b>99.35%</b></td>
+</tr>
+
+<tr>
+<td>🎯 Precision</td>
+<td><b>80.34%</b></td>
+</tr>
+
+<tr>
+<td>🔍 Recall</td>
+<td><b>84.73%</b></td>
+</tr>
+
+<tr>
+<td>⚖️ F1 Score</td>
+<td><b>82.48%</b></td>
+</tr>
+
+<tr>
+<td>📈 ROC-AUC</td>
+<td><b>99.28%</b></td>
+</tr>
+
+</table>
+
+---
+
+## 📊 Final Model Results
+
+The following visual shows the final model performance:
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" style="border: 4px solid #000000; padding: 15px;">
+
+<img src="assets/model_results.png" width="750">
+
+<br><br>
+
+<b>🏆 Final XGBoost Model Results</b>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 🧠 Skills Acquired
+
+During this project, I developed practical experience in the complete machine learning workflow.
+
+<table>
+<tr>
+<th>🧩 Area</th>
+<th>💡 Skills</th>
+</tr>
+
+<tr>
+<td><b>Data Preparation</b></td>
+<td>Data preprocessing, missing value handling, feature scaling</td>
+</tr>
+
+<tr>
+<td><b>Data Analysis</b></td>
+<td>Exploratory Data Analysis (EDA)</td>
+</tr>
+
+<tr>
+<td><b>Machine Learning</b></td>
+<td>Binary classification, model training, model comparison</td>
+</tr>
+
+<tr>
+<td><b>Imbalanced Data</b></td>
+<td>SMOTE and minority-class handling</td>
+</tr>
+
+<tr>
+<td><b>Model Evaluation</b></td>
+<td>Accuracy, Precision, Recall, F1 Score, Confusion Matrix, ROC-AUC</td>
+</tr>
+
+<tr>
+<td><b>Model Optimization</b></td>
+<td>GridSearchCV and Optuna</td>
+</tr>
+
+<tr>
+<td><b>Final Model</b></td>
+<td>XGBoost</td>
+</tr>
+
+<tr>
+<td><b>End-to-End Workflow</b></td>
+<td>From raw data preparation to final prediction</td>
+</tr>
+
+</table>
+
+---
+
+## 🛠️ Tools & Technologies
+
+<table>
+<tr>
+<th>🛠️ Category</th>
+<th>💻 Technologies</th>
+</tr>
+
+<tr>
+<td><b>Programming</b></td>
+<td>Python</td>
+</tr>
+
+<tr>
+<td><b>Data Processing</b></td>
+<td>Pandas, NumPy</td>
+</tr>
+
+<tr>
+<td><b>Visualization</b></td>
+<td>Matplotlib, Seaborn</td>
+</tr>
+
+<tr>
+<td><b>Machine Learning</b></td>
+<td>Scikit-learn</td>
+</tr>
+
+<tr>
+<td><b>Imbalanced Data</b></td>
+<td>SMOTE</td>
+</tr>
+
+<tr>
+<td><b>Boosting</b></td>
+<td>XGBoost, AdaBoost, Gradient Boosting</td>
+</tr>
+
+<tr>
+<td><b>Hyperparameter Tuning</b></td>
+<td>GridSearchCV, Optuna</td>
+</tr>
+
+<tr>
+<td><b>Development</b></td>
+<td>Jupyter Notebook, VS Code</td>
+</tr>
+
+<tr>
+<td><b>Version Control</b></td>
+<td>Git, GitHub</td>
+</tr>
+
+</table>
