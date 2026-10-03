@@ -117,6 +117,7 @@ The positive class represents component failures for a specific component of the
 ---
 ## 🔄 Project Workflow
 
+```text
 🚛 Raw Dataset
        ↓
 🔍 Data Understanding
@@ -134,7 +135,7 @@ The positive class represents component failures for a specific component of the
 ⚙️ Hyperparameter Tuning
        ↓
 🏆 Final XGBoost Model
-       
+```    
 
 ---
 
