@@ -137,3 +137,37 @@ The positive class represents component failures for a specific component of the
        
 
 ---
+
+## 🧹 Data Preprocessing
+
+Before training the models, I prepared the dataset step by step to make it suitable for machine learning.
+
+<div align="center">
+
+| 🔧 Step | 📝 What I Did |
+|---|---|
+| 🧹 **Missing Values** | Handled missing values using **mean imputation** |
+| ✂️ **Train / Test Split** | Prepared separate training and testing datasets |
+| 📏 **Feature Scaling** | Scaled the numerical features to bring them to a similar range |
+| ⚖️ **Class Imbalance** | Used **SMOTE** to balance the minority and majority classes in the training data |
+| 📦 **Processed Dataset** | Created the final processed training and testing datasets for model training |
+
+</div>
+
+### ⚖️ Handling Class Imbalance
+
+The dataset contains considerably fewer failure cases than non-failure cases.  
+To address this problem, I used **SMOTE (Synthetic Minority Oversampling Technique)** on the training data.
+
+```text
+Original Training Data
+        ↓
+   Class Imbalance
+        ↓
+      SMOTE
+        ↓
+Balanced Training Data
+        ↓
+   Model Training
+
+---
