@@ -29,3 +29,13 @@ While working on this project, I wanted to understand how machine learning can b
 This project helped me connect the concepts I learned in machine learning with a practical engineering problem and increased my interest in applying **AI and machine learning to real-world systems**.
 
 ---
+
+## 🎯 Objective
+
+My main objective in this project was to build a machine learning model that could predict whether an Air Pressure System (APS) component in a heavy truck could fail.
+
+I wanted to understand the complete machine learning process, starting from **data preprocessing and handling missing values**, to dealing with the **imbalanced dataset**, training different classification models, and evaluating their performance.
+
+I also wanted to compare different models and use **hyperparameter tuning** to improve the final model's performance. Through this project, my goal was not only to achieve good accuracy, but also to understand how machine learning can be applied to a real-world failure prediction problem.
+
+---
