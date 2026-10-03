@@ -330,7 +330,7 @@ The following visual shows the final model performance:
 <tr>
 <td align="center" style="border: 4px solid #000000; padding: 15px;">
 
-<img src="assets/model_results.png" width="750">
+<img src="assets/model_result_aps.png" width="750">
 
 <br><br>
 
