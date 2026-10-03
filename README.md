@@ -452,3 +452,96 @@ During this project, I developed practical experience in the complete machine le
 </tr>
 
 </table>
+
+---
+## 📁 Project Structure
+
+```text
+air-pressure-system-failure-prediction/
+│
+├── 📂 assets/
+│   ├── APS_Truck_banner.png
+│   ├── confusion_matrix_aps.png
+│   ├── confusion_matrix_aps.png
+│   ├── roc_curve_aps.png
+│  
+│
+├── 📂 data/
+│   ├── 📂 raw/
+│   └── 📂 processed/
+│
+├── 📂 notebooks/
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_EDA.ipynb
+│   ├── 03_data_preprocessing.ipynb
+│   ├── 04_model_training.ipynb
+│   ├── 05_model_evaluation.ipynb
+│   ├── 06_hyperparameter_tuning.ipynb
+│   ├── 07_final_model.ipynb
+│
+├── 📂 models/
+│
+├── .gitignore
+├── requirements.txt
+├── LICENSE
+└── README.md
+
+
+```
+---
+
+## 📓 Project Notebooks
+
+| 📓 Notebook | 📝 Description |
+|---|---|
+| 🔍 `01_data_understanding.ipynb` | Understanding the dataset and its structure |
+| 📊 `02_EDA.ipynb` | Exploring the dataset and identifying patterns |
+| 🧹 `03_data_preprocessing.ipynb` | Cleaning, transforming, and preparing the data |
+| 🤖 `04_model_training.ipynb` | Training and comparing different machine learning models |
+| 📈 `05_model_evaluation.ipynb` | Evaluating models using different performance metrics |
+| ⚙️ `06_hyperparameter_tuning.ipynb` | Tuning models using GridSearchCV and Optuna |
+| 🏆 `07_final_model.ipynb` | Selecting and evaluating the final XGBoost model |
+| 🎯 `08_prediction.ipynb` | Making predictions using the final trained model |
+
+---
+## 🚀 How to Run
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone <your-repository-url>
+cd air-pressure-system-failure-prediction
+```
+---
+## 🚀 How to Run
+
+### 🛠️ Setup
+
+```bash
+# Clone the repository
+git clone <your-repository-url>
+
+# Move into the project folder
+cd air-pressure-system-failure-prediction
+
+# Create virtual environment
+python -m venv apsvenv
+
+# Activate virtual environment
+apsvenv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
+
+### 🚀 Rupesh Mane
+
+**Machine Learning **
+</div>
+
