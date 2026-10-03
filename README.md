@@ -39,3 +39,79 @@ I wanted to understand the complete machine learning process, starting from **da
 I also wanted to compare different models and use **hyperparameter tuning** to improve the final model's performance. Through this project, my goal was not only to achieve good accuracy, but also to understand how machine learning can be applied to a real-world failure prediction problem.
 
 ---
+
+## 📊 Dataset
+
+The dataset used in this project is:
+
+**APS Failure at Scania Trucks**
+
+The dataset was obtained from the **UCI Machine Learning Repository**.
+
+🔗 **Dataset:**  
+https://archive.ics.uci.edu/ml/datasets/aps+failure+at+scania+trucks
+
+### 📋 Dataset Information
+
+<table>
+<tr>
+<th>📌 Information</th>
+<th>📊 Details</th>
+</tr>
+
+<tr>
+<td><b>Dataset</b></td>
+<td>APS Failure at Scania Trucks</td>
+</tr>
+
+<tr>
+<td><b>Source</b></td>
+<td>UCI Machine Learning Repository</td>
+</tr>
+
+<tr>
+<td><b>Problem Type</b></td>
+<td>Binary Classification</td>
+</tr>
+
+<tr>
+<td><b>Training Instances</b></td>
+<td>60,000</td>
+</tr>
+
+<tr>
+<td><b>Test Instances</b></td>
+<td>16,000</td>
+</tr>
+
+<tr>
+<td><b>Attributes</b></td>
+<td>171</td>
+</tr>
+
+<tr>
+<td><b>Feature Type</b></td>
+<td>Integer and Real</td>
+</tr>
+
+<tr>
+<td><b>Missing Values</b></td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td><b>Target</b></td>
+<td><code>class</code></td>
+</tr>
+
+</table>
+
+The positive class represents component failures for a specific component of the APS, while the negative class represents trucks with failures not related to the APS.
+
+### 📚 Dataset Citation
+
+> APS Failure at Scania Trucks [Dataset]. (2016). UCI Machine Learning Repository.
+
+**DOI:** 10.24432/C51S51
+
+---
