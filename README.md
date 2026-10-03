@@ -115,3 +115,25 @@ The positive class represents component failures for a specific component of the
 **DOI:** 10.24432/C51S51
 
 ---
+## 🔄 Project Workflow
+
+🚛 Raw Dataset
+       ↓
+🔍 Data Understanding
+       ↓
+📊 EDA
+       ↓
+🧹 Data Preprocessing
+       ↓
+⚖️ SMOTE
+       ↓
+🤖 Model Training
+       ↓
+📈 Model Evaluation
+       ↓
+⚙️ Hyperparameter Tuning
+       ↓
+🏆 Final XGBoost Model
+       
+
+---
