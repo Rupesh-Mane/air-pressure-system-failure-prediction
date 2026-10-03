@@ -192,3 +192,57 @@ I trained and compared different machine learning classification models to under
 After comparing the models, I further tuned their hyperparameters using **GridSearchCV** and **Optuna** to improve their performance.
 
 ---
+
+## 📈 Model Evaluation
+
+After training the different models, I evaluated their performance using **Accuracy, Precision, Recall, F1 Score, Confusion Matrix, and ROC-AUC**.
+
+For the final evaluation, I focused on the **XGBoost model** because it performed best for this project.
+
+---
+
+### 🔲 Confusion Matrix
+
+The confusion matrix helped me understand how well the final XGBoost model classified the **failure** and **non-failure** cases.
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center">
+
+<img src="assets/confusion_matrix.png" width="600">
+
+<br>
+
+<b>📊 XGBoost Confusion Matrix</b>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+### 📈 ROC Curve
+
+The ROC curve shows how well the final XGBoost model separates the **two classes**.
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center">
+
+<img src="assets/roc_curve.png" width="650">
+
+<br>
+
+<b>📈 XGBoost ROC Curve</b>
+
+</td>
+</tr>
+</table>
+
+</div>
