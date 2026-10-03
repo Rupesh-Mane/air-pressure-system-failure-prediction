@@ -169,7 +169,7 @@ Original Training Data
 Balanced Training Data
         ↓
    Model Training
-
+```
 ---
 
 ## 🤖 Machine Learning Models
