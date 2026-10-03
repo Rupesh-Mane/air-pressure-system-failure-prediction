@@ -171,3 +171,23 @@ Balanced Training Data
    Model Training
 
 ---
+
+## 🤖 Machine Learning Models
+
+I trained and compared different machine learning classification models to understand which algorithms perform well for the APS failure prediction problem.
+
+| 🔧 Model | 💡 Purpose |
+|---|---|
+| 🧮 **Logistic Regression** | Baseline classification model |
+| 📍 **KNN** | Classification based on nearby data points |
+| 🌳 **Decision Tree** | Tree-based classification |
+| 🌲 **Random Forest** | Ensemble of decision trees |
+| 🎲 **Naive Bayes** | Probability-based classification |
+| 📐 **SVM** | Finds a boundary between classes |
+| 🚀 **AdaBoost** | Boosting-based ensemble model |
+| 📈 **Gradient Boosting** | Sequential boosting model |
+| ⚡ **XGBoost** | Optimized gradient boosting model |
+
+After comparing the models, I further tuned their hyperparameters using **GridSearchCV** and **Optuna** to improve their performance.
+
+---
