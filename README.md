@@ -505,12 +505,6 @@ air-pressure-system-failure-prediction/
 
 ---
 
-
-```bash
-git clone <your-repository-url>
-cd air-pressure-system-failure-prediction
-```
----
 ## 🚀 How to Run
 
 ### 🛠️ Setup
