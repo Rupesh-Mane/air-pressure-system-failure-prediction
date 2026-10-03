@@ -211,7 +211,7 @@ The confusion matrix helped me understand how well the final XGBoost model class
 <tr>
 <td align="center">
 
-<img src="assets/confusion_matrix.png" width="600">
+<img src="assets/confusion_matrix_aps.png" width="600">
 
 <br>
 
@@ -235,7 +235,7 @@ The ROC curve shows how well the final XGBoost model separates the **two classes
 <tr>
 <td align="center">
 
-<img src="assets/roc_curve.png" width="650">
+<img src="assets/roc_curve_aps.png" width="650">
 
 <br>
 
