@@ -19,3 +19,13 @@ After comparing multiple classification models, **XGBoost** was selected as the 
 **99.35% Accuracy | 84.73% Recall | 82.48% F1 Score | 99.28% ROC-AUC**
 
 ---
+
+## 🎯 Motivation
+
+I wanted to work on a real-world machine learning problem where the data is not perfectly clean and the model needs to handle practical challenges. The Air Pressure System is an important part of heavy trucks, especially for functions such as braking and gear changes.
+
+While working on this project, I wanted to understand how machine learning can be applied to sensor data to identify possible component failures. The dataset also contains many missing values and a highly imbalanced target, which motivated me to learn how to handle these challenges properly instead of working only with simple, clean datasets.
+
+This project helped me connect the concepts I learned in machine learning with a practical engineering problem and increased my interest in applying **AI and machine learning to real-world systems**.
+
+---
