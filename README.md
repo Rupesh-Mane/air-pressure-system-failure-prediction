@@ -504,9 +504,7 @@ air-pressure-system-failure-prediction/
 | 🎯 `08_prediction.ipynb` | Making predictions using the final trained model |
 
 ---
-## 🚀 How to Run
 
-### 1️⃣ Clone the Repository
 
 ```bash
 git clone <your-repository-url>
